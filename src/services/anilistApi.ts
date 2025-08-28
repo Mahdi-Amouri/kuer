@@ -6,7 +6,7 @@ import type {
 } from "../types/anilist";
 import { MediaType } from "../types/anilist";
 
-const ANILIST_API_URL = "/api/graphql";
+const ANILIST_API_URL = "https://graphql.anilist.co";
 
 // Rate Limiting - AniList hat Limits von ~90 requests pro Minute
 let lastRequestTime = 0;
